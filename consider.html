@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>Digital Watermark</title>
+	</head>
+<body a link="black" vlink="black">
+<center>
+  <h1><font size="+5" style="font-family:Comic Sans MS;">Digital Watermark</font></h1>
+</center>
+<center>
+  <p><font style="font-family:Comic Sans MS;">Yupei Zhu</font></p>
+</center>
+<center>
+  <p><font style="font-family:Comic Sans MS;">A91095937</font></p>
+</center>
+	<center>
+		<p>
+			<a href="./index.html">Introduction</a> 
+			| <a href="./how.html">How it works?</a> 
+			| <b>Things to consider</b>
+			| <a href="./safe.html">Is it safe?</a> 
+			| <a href="./crack.html">How to crack it?</a>
+		</p>
+		</center>
+
+		<center>
+		</br>
+<p><font style="font-family:Comic Sans MS;">We have to design our digital watermark to fit our expectation. Here are some concepts we need to consider: </font></p>
+
+</center>
+			<p><font style="font-family:Comic Sans MS;">Robustness </font></p>
+					<center>
+		</br>
+<p><font style="font-family:Comic Sans MS;">We have to make sure that the watermark can resist desirable modification so that we can still detect the watermarks even if the original content is changed. If the watermark can only endure only small amount of modification, it is fragile. If the watermark can resist a designated class of transformations, it is robust. </font></p>
+
+		</center>
+				</center>
+			<p><font style="font-family:Comic Sans MS;">Perceptibility </font></p>
+					<center>
+					<table width=auto border="0">
+  <tbody>
+    <tr>
+      <td><img src="origin.jpg" width="400" height=auto alt=""/></td>
+      <td><img src="invisible.jpg" width="400" height=auto alt=""/></td>
+      <td><img src="visible.jpg" width="400" height=auto alt=""/></td>
+    </tr>
+    <tr>
+      <td>Original</td>
+      <td>Invisible</td>
+      <td>Visible</td>
+    </tr>
+  </tbody>
+</table>
+		</br>
+<p><font style="font-family:Comic Sans MS;">It means whether we can detect the watermark perceptually. It is basically how visible watermarks and invisible watermarks are defined. </font></p>
+
+		</center>
+				</center>
+			<p><font style="font-family:Comic Sans MS;">Capacity </font></p>
+					<center>
+		</br>
+<p><font style="font-family:Comic Sans MS;">Some watermarks may add extra size to the original data while some may not. For example, the metadata will take extra space and adding logos to pictures will not add extra bits to the original file conceptually. </font></p>
+
+		</center>
+				</center>
+			<p><font style="font-family:Comic Sans MS;">Embedding method </font></p>
+					<center>
+		</br>
+		<font style="font-family:Comic Sans MS;">
+<p>There are basically 3 kinds of different methods:</p>
+<p>1. spread-spectrum: marked signal is obtained by an additive modification. It is not rubost but has a low information capacity.</p>
+<p>2. quantization type: marked signal is obtained by quantization. It has low robustness but a high information capacity.</p>
+<p>3. amplitude modulation: marked signal is embedded by additive modification which is similar to spread spectrum method, but is particularly embedded in the spatial domain.</p>
+ </font>
+        </center>
+		
+</body>	
+</html>
